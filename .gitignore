@@ -19,8 +19,6 @@ packages/core/smoke-test-fixture/
 use-stellar-*.tgz
 
 # Environment
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -40,3 +38,7 @@ CLUADE.MD
 commit.ps1
 install.cmd
 Figma/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
