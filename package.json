@@ -8,8 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "pnpm build:lib && pnpm --filter @use-stellar/demo dev",
-    "build": "pnpm build:lib && pnpm --filter @use-stellar/demo build",
+    "dev": "node api.js && pnpm build:lib && pnpm --filter @use-stellar/demo dev",
+    "build": "node api.js && pnpm build:lib && pnpm --filter @use-stellar/demo build",
     "build:lib": "pnpm --filter use-stellar build",
     "size": "pnpm --filter use-stellar size",
     "size:why": "pnpm --filter use-stellar size:why",
