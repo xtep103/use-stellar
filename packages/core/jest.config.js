@@ -39,4 +39,4 @@ module.exports = {
   // implemented mock functions. Removing `resetMocks`/`restoreMocks`
   // prevents jest.resetAllMocks() from stripping module-scope mock
   // implementations which this repo's manual mocks rely on.
-}
+};
