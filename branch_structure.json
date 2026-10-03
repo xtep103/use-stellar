@@ -1,0 +1,21 @@
+{
+  "default_branch": "dev",
+  "branches": [
+    "dev",
+    "feat/345-walletconnect-rn",
+    "feat/focus-manager",
+    "origin"
+  ],
+  "parent": {
+    "dev": null,
+    "feat/345-walletconnect-rn": "dev",
+    "feat/focus-manager": "dev",
+    "origin": "dev"
+  },
+  "order": [
+    "dev",
+    "feat/345-walletconnect-rn",
+    "feat/focus-manager",
+    "origin"
+  ]
+}
